@@ -51,12 +51,10 @@ function addToCard(event) {
                     ${cars[i].Name}
                     ${cars[i].Model}
                     ${cars[i].Year}<br>
-                    ${cars[i].Speed}<br>
-                    ${cars[i].Engine}<br>
-                    ${cars[i].Exterior_Color}<br>
+                     ${cars[i].Exterior_Color}<br>
                     ${cars[i].Interior_Color}<br>
                         <span class="cena">${cars[i].Price}</span>
-        ]           </div>
+                   </div>
                 
                 <div class = "Button2">
                     <button data-id = "${cars[i].id}" class = "remove">REMOVE</button>
